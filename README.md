@@ -1,7 +1,7 @@
+
 <h1 align="center">
   Hi there, I'am ssleert <img src="https://github.com/0xMrNight/0xMrNight/blob/main/assets/wave.gif?raw=true" width="28px"> </h4>
 </h1>
-
 <h1 align="center">
   Info 👾</h4>
 </h1>
@@ -11,8 +11,6 @@
 ![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
 ![Tor](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
-
-
 ### Text Editors
 ![Emacs](https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white)
 ![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
@@ -23,7 +21,6 @@
 ### Cloud Storage 
 ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
 ![Next Cloud](https://img.shields.io/badge/Next%20Cloud-0B94DE?style=for-the-badge&logo=nextcloud&logoColor=white)
-
 ### OS
 ![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
 ![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
@@ -36,3 +33,15 @@
 ### Code Hosts
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Gitea](https://img.shields.io/badge/Gitea-34495E?style=for-the-badge&logo=gitea&logoColor=5D9425)
+
+</h1>
+<h1 align="center">
+  Stats</h4>
+</h1>
+
+<p align="center">
+  <img src="https://activity-graph.herokuapp.com/graph?username=ssleert&hide_title=true&bg_color=44454d&color=cfeefc&line=80cbc4&point=ffffff&area=false&hide_border=true" width="900"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ssleert&theme=nord_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ssleert&theme=nord_dark" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ssleert&theme=onedark" width="680" />
+</p>
