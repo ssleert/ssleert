@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  Hi there, I'am ssleert <img src="https://github.com/0xMrNight/0xMrNight/blob/main/assets/wave.gif?raw=true" width="28px"> </h4>
+  Hi there, I'am ssleert ⛎ </h4>
 </h1>
 <h1 align="center">
   👾 Info 👾</h4>
