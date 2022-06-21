@@ -3,7 +3,7 @@
   Hi there, I'am ssleert ⛎ </h4>
 </h1>
 <h1 align="center">
-  👾 Info 🥯 👾</h4>
+  👾 Info 👾</h4>
 </h1>
 
 ### Browsers ☁️
