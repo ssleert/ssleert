@@ -93,3 +93,60 @@ function pblib::fs::lines_while() {
 ```
 
 </details>
+	
+<details>
+<summary align="center">projects</summary>
+<br>
+
+<details>
+<summary align="center">planned</summary>
+
+- nitch 0.2.0 
+  - in `go`
+  - nitch rewrite in `go`
+
+<br>	
+
+- gclipt - `go` cli util template
+  - in `sh`
+  - `gogcc` and `tinygo` support
+
+<br>
+
+- gmks - make system for `go` 
+  - in `sh`
+  - `gogcc` and `tinygo` support 
+  - compile time variables support not only with gc
+
+</details>
+
+<details>
+<summary align="center">completed</summary>
+
+- nitch - incredibly fast system fetch
+  - in `nim`
+  - https://github.com/unxsh/nitch
+
+- sterm - lib for write tui
+  - in `go`
+  - https://github.com/ssleert/sterm
+
+- pblib - pure bash lib
+  - in `bash`
+  - https://github.com/ssleert/pblib
+
+- qpwm - quite powerful window manager for X
+  - in `c`
+  - https://github.com/unxsh/qpwm
+
+- cdropp - ram cache dropper for linux
+  - in `go`
+  - https://github.com/ssleert/cdropp
+
+- memory - lib to get info about ram in linux
+  - in `go`
+  - https://github.com/ssleert/memory
+
+</details>
+
+</details>
