@@ -92,6 +92,29 @@ function pblib::fs::lines_while() {
 }
 ```
 
+<br>
+
+### `ReadLines()` from sfolib
+### read N lines from file
+```go
+// read N lines from file
+func ReadLines(s string, n int) ([]string, error) {
+	f, err := os.Open(s)
+	if err != nil {
+		return nil, err
+	}
+	defer f.Close()
+
+	lines := make([]string, 0, n)
+	sc := bufio.NewScanner(f)
+	for i := 0; i < n && sc.Scan(); i++ {
+		lines = append(lines, sc.Text())
+	}
+
+	return lines, nil
+}
+```
+
 </details>
 	
 <details>
