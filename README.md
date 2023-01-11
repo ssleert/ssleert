@@ -150,21 +150,31 @@ func ReadLines(s string, n int) ([]string, error) {
   - in `nim`
   - https://github.com/unxsh/nitch
 
+<br>
+
 - sterm - lib for write tui
   - in `go`
   - https://github.com/ssleert/sterm
+
+<br>
 
 - pblib - pure bash lib
   - in `bash`
   - https://github.com/ssleert/pblib
 
+<br>
+
 - qpwm - quite powerful window manager for X
   - in `c`
   - https://github.com/unxsh/qpwm
 
+<br>
+
 - cdropp - ram cache dropper for linux
   - in `go`
   - https://github.com/ssleert/cdropp
+
+<br>
 
 - memory - lib to get info about ram in linux
   - in `go`
