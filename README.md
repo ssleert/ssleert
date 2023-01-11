@@ -141,6 +141,13 @@ func ReadLines(s string, n int) ([]string, error) {
   - `gogcc` and `tinygo` support 
   - compile time variables support not only with gc
 
+<br>
+
+- sppl - simple preprocessor language
+  - in `go` or `sh`
+  - support different directive starts like '//', '--' or '#' 
+  - like comments in programming languages
+
 </details>
 
 <details>
