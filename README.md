@@ -11,7 +11,7 @@ like `nim`, `zig` and `bash`. <br>
 You can also check some of my repositories and you probably won't find anything useful. <br>
 I write mostly in `Go` and `sh` at the moment. <br>
 
-discord & telegram: `sfome#4343` `@ssleert`
+discord & telegram: `slugonme` `@ssleert`
 </div>
 
 <details>
