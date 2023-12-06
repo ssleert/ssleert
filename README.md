@@ -3,116 +3,24 @@
 ### *`sfome`*
 #### *zstd compressed mind*
   
-Hello there and I haven't decided what I am yet. <br>
-But I'm good at writing scripts, cli utilities and infrastructure tools, <br> 
-as well as setting up work and dev environments. Also interested in learning useless stuff <br> 
-like `nim`, `zig` and `bash`. <br>
-<br>
-You can also check some of my repositories and you probably won't find anything useful. <br>
-I write mostly in `Go` and `sh` at the moment. <br>
+I'm too lazy to develop anything, so during work hours <br>
+I write this readme on github, thinking I'm the coolest developer on earth. <br> 
+At the same time I'm thinking about how nice it would be to take this cute girl <br>
+out for a walk or something.
+
+If you still think I'm a good developer, <br>
+you've probably met a very arrogant me on one of the discord servers, <br>
+furiously trying to prove a completely unviable theory or some other unnecessary bullshit.
 
 discord & telegram: `slugonme` `@ssleert`
 </div>
 
 <details>
 <summary align="center">some of my code examples</summary>
-
-### `GetChar()` from sterm
-```go
-// simple func to get char from terminal
-// similar to getchar() in C
-func GetChar() (rune, error) {
-	s, err := term.MakeRaw(0)
-	defer term.Restore(0, s)
-	if err != nil {
-		return 0, err
-	}
-
-	in := bufio.NewReader(os.Stdin)
-
-	rn, _, err := in.ReadRune()
-	if err != nil {
-		return 0, err
-	}
-
-	return rn, nil
-}
-```
-
-<br>
-  
-### `2arr()` from pblib
-#### splits string to characters with '\n' delimiter
-```bash
-function pblib::str::2arr() {
-  local -r string="$1"
-  shift $#
-
-  if [[ -z $string ]]; then
-    return 1
-  else
-    local -a array
-    local char
-    for (( i = 0; i < ${#string}; ++i )); do
-      char="${string:${i}:1}"
-      if [[ -z $char ]]; then
-        array+=(' ')
-      else
-        array+=("${char}")
-      fi
-    done
-    unset char
-    readonly array
-    printf '%s\n' "${array[@]}"
-    return 0
-  fi
-}
-```
-
+<div align="center">
 <br>
 
-### `lines_while()` from pblib
-#### count lines in file with while cycle
-```bash
-function pblib::fs::lines_while() {
-  local -r file="$1"
-  shift $#
+Dude, do you really think I'm going to brag about my code?
 
-  if [[ ! -f $file ]]; then
-    return 1
-  else
-    local -i lines_count=0
-    while IFS='' read -r _; do
-      ((++lines_count))
-    done < "${file}"
-    readonly lines_count
-    printf '%u\n' "${lines_count}"
-    return 0
-  fi
-}
-```
-
-<br>
-
-### `ReadLines()` from sfolib
-### read N lines from file
-```go
-// read N lines from file
-func ReadLines(s string, n int) ([]string, error) {
-	f, err := os.Open(s)
-	if err != nil {
-		return nil, err
-	}
-	defer f.Close()
-
-	lines := make([]string, 0, n)
-	sc := bufio.NewScanner(f)
-	for i := 0; i < n && sc.Scan(); i++ {
-		lines = append(lines, sc.Text())
-	}
-
-	return lines, nil
-}
-```
-
+</div>
 </details>
