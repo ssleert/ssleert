@@ -6,7 +6,7 @@
 I'm too lazy to develop anything, so during work hours <br>
 I write this readme on github, thinking I'm the coolest developer on earth. <br> 
 At the same time I'm thinking about how nice it would be to take this cute girl <br>
-out for a walk or something.
+out for a walk or something. <br/>
 (i did it.)
 
 If you still think I'm a good developer, <br>
